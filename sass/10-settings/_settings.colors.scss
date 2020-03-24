@@ -1,0 +1,46 @@
+// COLOR-VARIABLES
+
+// 1. color names
+
+$_color-lightest:   	  	#FFFFFF !default;
+$_color-lighter:    		#F2F2F2 !default;
+$_color-light:      		#E0E0E0 !default;
+$_color-medium:     		#A4A4A4 !default;
+$_color-dark:       		#6E6E6E !default;
+$_color-darker:     		#444444 !default;
+$_color-darkest:    		#111111 !default;
+
+$_color-white: #fff;
+$_color-black: #111111;
+$_color-red: #ff4136;
+$_color-yellow: #ffdc00;
+$_color-maroon: #85144b;
+$_color-gray: #666;
+$_color-grey: #666;
+$_color-silver: #dddddd;
+$_color-silver-light: #eeeeee;
+$_color-teal: #39cccc;
+$_color-navy: #001f3f;
+$_color-orange: #ff851B;
+$_color-blue: #0074d9;
+
+// 2. color definitions
+
+$_color-primary:   $_color-blue !default;
+$_color-secondary: $_color-grey !default;
+$_color-tertiary:  $_color-teal !default;
+
+$_color-body: $_color-dark !default;
+$_color-text: $_color-dark !default;
+$_color-danger: $_color-red !default;
+$_color-warning: $_color-yellow !default;
+
+:root {
+  --color-primary: #{$_color-primary};
+  --color-secondary: #{$_color-secondary};
+  --color-tertiary: #{$_color-tertiary};
+
+  --color-body: #{$_color-body};
+  --color-border: #{$_color-gray};
+  --color-code-background: #{$_color-light};
+}

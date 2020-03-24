@@ -1,2 +1,11 @@
 # foo
-Foo JavaScript and Sass library that I use sometimes
+
+## JavaScript
+
+Vanilla JS utitlities.
+
+## ▽ SASS
+
+Base SASS for ITCSS.
+
+![](itcss-layers.png)
